@@ -1,0 +1,51 @@
+/* global variable  */
+
+:root {
+    --theme-color: #412976;
+    --hover-color: #6239bb;
+}
+
+
+/* global variable end  */
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+/* font color theme  */
+
+.text-theme {
+    color: #412976;
+}
+
+.bg-theme {
+    background-color: var(--theme-color);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+.bg-theme:hover {
+    background-color: var(--hover-color);
+}
+
+.text-hover:hover {
+    color: var(--hover-color);
+}
+
+
+/* font color theme end */
+
+.img-utop {
+    width: 70%;
+    margin: auto;
+}
+
+.slide {
+    min-height: 80vh;
+}
